@@ -43,9 +43,7 @@
     {
       "displayName": "CTA (Chicago Transit Authority)",
       "id": "cta-2ef346",
-      "locationSet": {
-        "include": [[-87.65, 41.9, 35]]
-      },
+      "locationSet": {"include": {"include":["us-il.geojson"]},
       "tags": {
         "network": "CTA",
         "network:wikidata": "Q117309",
